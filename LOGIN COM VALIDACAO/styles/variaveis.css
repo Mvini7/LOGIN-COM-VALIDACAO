@@ -1,0 +1,12 @@
+:root {
+    --cor-fundo: #121212;
+    --cor-fundo-container: #1e1e1e;
+    --cor-texto: #fff;
+    --cor-borda-input: #333;
+    --cor-botao: #6200ea;
+    --cor-botao-hover: #3700b3;
+    --padding-container:  20px;
+    --margem-input: 10px;
+    --borda-radius: 5px;
+    --sombra-container: 0 0 10px rgba(0, 0, 0, 0.5)
+}

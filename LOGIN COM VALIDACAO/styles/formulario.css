@@ -1,0 +1,43 @@
+.container {
+    background-color:  var(--cor-fundo-container);
+    padding: var(--padding-container);
+    border-radius: var(--borda-radius);
+    box-shadow: var(--sombra-container);
+}
+
+h1, p {
+    color: var(--cor-texto);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: var(--cor-texto);
+}
+
+input {
+    margin-bottom: var(--margem-input);
+    padding: 10px;
+    border: 1px solid var(--cor-borda-input);
+    background-color: var(--cor-fundo-container);
+    color: var(--cor-texto);
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: var(--cor-botao);
+    color: var(--cor-texto);
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: var(--cor-botao-hover);
+}

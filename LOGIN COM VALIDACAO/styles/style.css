@@ -1,0 +1,13 @@
+@import url('variaveis.css');
+@import url('formulario.css');
+@import url('responsividade.css');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--cor-fundo);
+}
